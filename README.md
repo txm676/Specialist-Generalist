@@ -1,7 +1,7 @@
 # Specialist-Generalist
 Code and data associated with Matthews et al. 2014, DOI: 10.1111/ddi.12227
 
-This paper was corrected in ** 2021 and the code and data here relate to the corrected version.
+This paper was corrected in 2021 and the code and data here relate to the corrected version.
 
 ## Data
 
