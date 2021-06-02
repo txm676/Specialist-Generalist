@@ -1,0 +1,109 @@
+---
+title: "Dataset information"
+author: "Tom Matthews"
+date: "02/06/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+The following provides a brief overview of information relating to the datasets sourced from each paper, particularly where we had to make decisions about which fragments to include and/or whether the source paper authors made choices which may have affected our results. The full references for all papers (unless otherwise provided) can be found in the supplementary information accompanying the original paper.
+
+### Anciães and Marini (2000)
+We included the larger more continuous forest sites as well as the smaller fragments. In hindsight this was not fully meeting our selection criteria as they are not necessarily fully isolated, but we used them originally (and keep them here) as we were interested in how the specialist:generalist patterns scaled across large ranges in area. We also note that note that this dataset has been used in other forest fragment meta-analyses with these sites included.
+Sampling focused on simply catching enough individuals for measuring fluctuating asymmetry, so may not be complete. Two smaller fragments listed as possibly not fully isolated.
+
+### Blake and Karr (1984); Blake (1991)
+Originally, the dataset we used was from Blake & Karr (1984) and just contained long-distance migrants and forest interior species. Here, we have replaced it with the more complete version of the dataset released by the authors (Blake, 1991; reference provided below), which has a fuller complement of species. We use the species list for the year 1980. Species are all breeding residents (and the list does not include birds of prey or crows). The fragment in their table with the area listed as 5.6ha is (we presume) an error as in their Table 3 (and their other papers) it is given as 5.1ha, so we use 5.1ha in our analyses.
+
+Blake, J.G. (1991) Nested subsets and the distribution of birds on isolated woodlots. Conservation Biology, 5, 58-66.
+
+### Castelletta et al. (2005)
+We included both old and young secondary forest patches, but not abandoned rubber plantations. Waterbirds were excluded by the authors. We have included all species given in their Appendix 3.
+
+N.B. due to the highly urbanised land-use in Singapore, the matrices surrounding the patches are heterogenous (including a mix of urban areas, reservoirs, grassland etc). Patches themselves have less than 100% canopy cover due to high disturbance but always > 70% (and all but one > 80%). 
+
+There is an inconsistency between their Table 1 and their Appendix 3 in the patches classified as young and old. We have used the fragment codes as they appear in Appendix 3. Note also that they list the species richness for BB as 63, but their presence absence matrix (Appendix 3) has it as 64, which is the value we used.
+
+### Cieślak and Dombrowski (1993)
+Fragments come from two forest “archipelagos” (one sampled in 1980 and one in 1983) in Eastern Poland, separated by about 45 km. We have followed the authors in combining them into one dataset. Only breeding species.
+
+### dos Anjos and Boçon (1999)
+We have included the largest patch (A), which in some places they describe as continuous forest but others as a patch and fragment, and they include it in their own analyses. But they do warn that sampling intensity is lower in (A) due to its larger size, thus the richness will be underestimated. We note that some of the patches are connected by narrow corridors.
+
+### dos Anjos et al (2004)
+During the re-analysis we were provided by the source paper author (Luiz dos Anjos, personal communication) another dataset from a follow up paper (dos Anjos et al. 2004). This dataset comprises birds sampled in 14 fragments from the same region, but these are anthropogenically fragmented islands rather than the naturally fragmented islands as in dos Anjos and Boçon (1999). The sampled area (i.e., number of point counts) was kept the same in each fragment, meaning proportionally more area of the smaller fragments was sampled and the species richness of the larger fragments will likely be underestimated (this likely explains the relatively low z-value we calculated for this dataset). Indeed, previous (more exhaustive) studies by the author of the largest fragment found several more species; however, we have used the dataset as provided to keep the sampling method consistent. Species only recorded once in a single point count in a fragment were marked (by the source paper author) as absent.
+
+dos Anjos, L., Zanette, L. & Lopes, E.V. (2004) Effects of fragmentation on the bird guilds of the Atlantic Forest in north Paraná, southern Brazil. Ornitología Neotropical, 15, 137–144.
+
+### Ford (1987)
+We have included species classed either as resident or transient, as the definition of transient here could include species seen in the fragment in two sampling visits (i.e., properly recorded, not just flying over).
+
+### Forman et al. (1976); Galli et al. (1976)
+We took the data from the companion paper (Galli et al. 1976; reference provided below). They include all species recorded except those flying over. 
+
+In going back through the source paper, we realised we had previously misinterpreted the experimental design: their data are not for a set of ten fragments but a set of 30 (3 same-sized replicate samples from ten fragments) where results are condensed for each area. For continuity, we decided to retain the dataset in the present re-analysis. It should also be noted that some rare species are mentioned in the paper but not listed in their main results table. These are included in the data for analysis, with the exception of Vireo sp.
+
+Galli, A.E., Leck, C.F. & Forman, R.T.T. (1976) Avian distribution patterns in forest islands of different sizes in central New Jersey. The Auk, 93, 356-364.
+
+### Gillespie and Walter (2001)
+Patches are tropical dry forest fragment protected areas. However, the forest cover is below 100% in each reserve. They give both reserve area and forest cover area – we have used the former.
+
+### Langrand (1995)
+We include the seven smaller fragments and the larger forest block (control site) as it is also in effect a forest fragment.
+
+Mist netting effort per unit area decreased with increasing fragment area. The author was focusing primarily on forest species and has excluded some non-forest species already, which likely explains the lack of significant patterns found in our analysis for this dataset.
+
+### Marini (2001)
+Fragments varied in presence / absence of dry and humid forest.
+
+We have not included ‘?’ records. Two species given as: Drymophila sp. and Icteridae sp. For these we have taken the authors’ forest dependency classification: Icteridae sp. as generalist, and Drymophilasp. as specialist.
+
+### T.J. Matthews – France
+All species recorded within the fragments, i.e., excluding species seen/heard outside the patches or flying over.
+
+### T.J. Matthews - Spain
+All species recorded within the fragments, i.e., excluding species seen/heard outside the patches or flying over.
+
+### T.J. Matthews – UK
+All species recorded within the fragments, i.e., excluding species seen/heard outside the patches or flying over.
+
+### T.J. Matthews – Norway
+All species recorded within the fragments, i.e., excluding species seen/heard outside the patches or flying over.
+
+### McCollin (1993)
+The data are for confirmed breeding species – the author removed four species that were considered to not be breeding. 
+
+### Simberloff and Martin (1991)
+Original data in Haila et al. (1987) – we have used the data as presented in Simberloff and Martin (1991). Reading Haila et al. (1987), it appears that the data are largely for breeding species, and they removed ‘transients’ where they could (but this was only possible in fragments that they sampled more than twice).
+
+### Watson (2003)
+The original paper only focuses on 60 forest species, but we received the whole dataset from the author, which includes all species recorded in the patches. This is the “master list” and comprises a mix of species from the author’s own field sampling and records from the fragments (these are all very large fragments) found in the literature. This represents all species recorded as being present in the fragments, not just those forest dependent species focused on in the main paper. The source author confirmed the fragment orders in the datafile match the order A-Q given in the paper (and thus can directly match the fragment areas).
+
+### Wethered and Lawes (2005 - Balgowan)
+One of two datasets from this source paper, here the fragments surrounded by a natural grassland matrix. The full presence-absence matrix provided in their Table 3 is used.
+
+### Wethered and Lawes (2005 - Gilgoa)
+One of two datasets from this source paper, here the fragments surrounded by a plantation forest matrix. Data are for ‘total compliment’ of species. The full presence-absence matrix provided in their Table 3 is used.
+
+### Willson (1994)
+Some of the area values provided are only approximate. We have excluded both the secondary forest patch, as the author covers this separately, and the Linnebrink fragment, as they also advise not using this for richness data. Note that they only include data on “regular” species (i.e., transient and some agricultural species etc have been removed), making our tests of this dataset conservative.
+
+## Datasets removed from the main re-analysis of habitat fragments
+
+### Holbech (1995)
+Matthews et al. (2014) took the sampling units to be fragments, but closer inspection of the source paper reveals them to be protected forest reserves, and some are continuous and linked together. Although protected, most are subject to selective logging. The author also cautions that sampling effort was unequal between sites and so advices use of rarefied richness, although this is not possible as we are using composition data.
+
+They list Polyboroides radiatus (Madagascan harrier hawk) as a species which must be a mistake as it is endemic to Madagascar. We have swapped for Polyboroides typus (African Harrier Hawk). They include two separate species for Halycon malimbica and Halcyon malimbicus, but these seem to be the same species (blue-breasted kingfisher) so also must be a mistake – we have combined them here in to one species. Neocossyphus fraseri finschi taken as Stizorhina fraseri. Two species were provided at the subspecies level; we have simply considered these as species. We have included species sampled with line transects and mist netting.
+
+We report the results for this ‘non-isolated’ system for comparative purposes, but do not include them in the main analyses. 
+
+### Hannah et al. (2007)
+We received the dataset from the source paper authors via email, in the form of multiple different files where it was necessary to re-assemble the dataset from the different files. On closer inspection, we made a mistake in this process and it does not seem possible to assemble the dataset from the files received. This dataset was therefore excluded altogether from the analyses provided here. 
+
+### Ríos et al. (2011)
+Matthews et al. (2014) considered the five sample areas to be five isolated woodland patches. But from re-examination of the source paper, it appears more likely they were five sites within a region where each site contains multiple patches of woodland but not as a single “island”. Point counts were only located in woodlands though, and the total woodland area in each of the five areas is given. As such, we use these area values. Authors state variation in habitat characteristics across the areas may explain lack of obvious SAR for total species; there is a high proportion of generalists in the dataset also, which is likely due to the rather open canopy characteristic of Polylepis woodland. One species given as Asthenes sp; for this we have taken their classification as a generalist (“Matrix” species).
+
+We report the results for this ‘non-isolated’ system for comparative purposes, but do not include them in the main analyses. 

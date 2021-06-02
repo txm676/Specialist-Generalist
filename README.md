@@ -7,5 +7,7 @@ This paper was corrected in 2021 and the code and data here relate to the correc
 
 The datasets.rds file is a list containing the 22 datasets, while the species.rds file contains the full list of species along with their specialist-generalist classification.
 
+A document detailing the different datasets is provided as a html file.
+
 ## Code
 The main R script needs to source the Source_code file.
